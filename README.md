@@ -11,4 +11,4 @@ A template that is highly opinionated so that beginners can have a foundation to
 - Battery included.(Routing, State management, etc)
 - Best practices.(Duck pattern, immutable, storybook, etc)
 - Logic sharing between web and app.
-- CLI to help with development
+- CLI to help with development.
