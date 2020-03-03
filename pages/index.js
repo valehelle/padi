@@ -43,6 +43,7 @@ export default function Index() {
             </a>
             <p onClick={buttonClick}>CLICK ME</p>
             <h1>The value of customKey is: {process.env.mock ? 'true' : 'false'}</h1>
+            <h1>The value of baseURL is: {process.env.BASE_URL}</h1>
             <form noValidate autoComplete="off">
                 <TextField id="username" label="Filled" variant="filled" value={loginState.username} onChange={updateData} />
                 <TextField id="password" label="Filled" variant="filled" value={loginState.password} onChange={updateData} />
