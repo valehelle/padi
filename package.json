@@ -7,7 +7,7 @@
   "scripts": {
     "dev:sit": "cross-env mock=false next ",
     "dev:mock": "cross-env mock=true next",
-    "build": "next build",
+    "build": "cross-env mock=false next build",
     "start": "next start",
     "export": "next export",
     "storybook": "start-storybook",
