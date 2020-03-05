@@ -10,6 +10,7 @@ jobs:
       - uses: amondnet/now-deployment@v2
         with:
           zeit-token: ${{ secrets.zeit }} # Required
+          now-args: '-A now-staging.json'
       - uses: amondnet/now-deployment@v2
         with:
           zeit-token: ${{ secrets.zeit }} # Required
