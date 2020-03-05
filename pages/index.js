@@ -39,7 +39,7 @@ export default function Index() {
     return (
         <div>
             <a href={'/background'} onClick={handleClick}>
-                HELO THIS IS A DEVELOP PLEASE WORK!!!@##
+                HELO THIS IS A DEVELOP PLEASE WORKtert!!!@##
                 {process.env.branch}
             </a>
             <p onClick={buttonClick}>CLIssCK ME NOeeexwxßT</p>
