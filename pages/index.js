@@ -39,9 +39,9 @@ export default function Index() {
     return (
         <div>
             <a href={'/background'} onClick={handleClick}>
-                HELO THIS IS A TESTwww
+                HELO THIS IS A DEVELOP TESTINGGG
             </a>
-            <p onClick={buttonClick}>CLICK ME</p>
+            <p onClick={buttonClick}>CLIssCK ME NOT</p>
             <h1>The value of customKey is: {process.env.mock ? 'true' : 'false'}</h1>
             <h1>The value of baseURL is: {process.env.BASE_URL}</h1>
             <form noValidate autoComplete="off">

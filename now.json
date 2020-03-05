@@ -3,5 +3,8 @@
         "env": {
             "BASE_URL": "@base_url"
         }
+    },
+    "github": {
+        "enabled": false
     }
 }
