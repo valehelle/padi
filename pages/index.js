@@ -42,7 +42,7 @@ export default function Index() {
                 HELO THIS IS A DEVELOP PLEASE WORK!!!@##
                 {process.env.branch}
             </a>
-            <p onClick={buttonClick}>CLIssCK ME NOT</p>
+            <p onClick={buttonClick}>CLIssCK ME NOeeexwxßT</p>
             <h1>The value of customKey is: {process.env.mock ? 'true' : 'false'}</h1>
             <h1>The value of baseURL is: {process.env.BASE_URL}</h1>
             <form noValidate autoComplete="off">
