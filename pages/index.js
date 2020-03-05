@@ -40,6 +40,7 @@ export default function Index() {
         <div>
             <a href={'/background'} onClick={handleClick}>
                 HELO THIS IS A DEVELOP PLEASE WORK!!!
+                {process.env.branch}
             </a>
             <p onClick={buttonClick}>CLIssCK ME NOT</p>
             <h1>The value of customKey is: {process.env.mock ? 'true' : 'false'}</h1>
