@@ -1,0 +1,10 @@
+{
+    "alias": [
+        "padi-staging"
+    ],
+    "build": {
+        "env": {
+            "BASE_URL": "@staging_base_url"
+        }
+    }
+}
